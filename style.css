@@ -2,6 +2,7 @@ body, html {
     background-color: aliceblue;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -14,4 +15,14 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+#resize-grid-button {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
 }
